@@ -38,6 +38,6 @@ jobs:
             -   uses: checkmarx/ast-github-action@main #Github Action version
                 with:
                     base_uri: https://ast.checkmarx.net/
-                    cx_tenant: {{ secrets.CX_TENANT }}
+                    cx_tenant: ca1f15f2-4320-4a27-9851-3c2ac576699f
                     cx_client_id: ${{ secrets.CX_CLIENT_ID }}
                     cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
